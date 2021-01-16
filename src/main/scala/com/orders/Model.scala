@@ -26,4 +26,9 @@ object Model {
                      grandTotal: Long,
                      date: ZonedDateTime,
                    )
+
+  case class ProductOrder (
+                          productCreationDate: ZonedDateTime,
+                          orderDate: ZonedDateTime
+                          )
 }
